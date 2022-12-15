@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div hidden id="GAME_OVER">
+        <h1> G A M E O V E R </h1> 
+         <h2> The Hero Was Killed </h2>
+    </div>
+    <div hidden id="YOU_WIN">
+        <h1>Y O U W I N</h1>
+    </div>
+    <div hidden class="example_enemy enemy_wrapper" data-person="enemy">
+        <div class='enemy_bullet' data-person='enemy_bullet'>
+            <img src='./img/bullet-right.webp' alt='enemy bullet'/>
+        </div>
+        <div class="life"></div>
+        <img src="./img/enemy.webp" alt="enemy" class="enemy">
+    </div>
+
+    <h1 id="h1">0</h1>
+    <audio src="./sounds/m4a1-1.mp3" id="shootingSound"></audio>
+
+<div class="wrapper_hero" data-person="hero">
+    <div class="life"></div>
+    <div class="hero">
+        <img src="./img/solider1.webp" alt="">
+    </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
