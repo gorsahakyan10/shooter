@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+html {
+    cursor: pointer;
+}
+
+body {
+    overflow: hidden;
+    background-image: url("https://wallpapercave.com/wp/aUdwg3C.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.wrapper_hero {
+    transition: bottom 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.life {
+    width: 100px;
+    height: 20px;
+    background: greenyellow;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hero {
+}
+
+
+.hero img {
+    width: 200px;
+    height: 220px;
+}
+
+#bullet {
+    position: absolute;
+    transition: right 1s;
+    right: 100px;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 80px;
+    margin-top: 200px;
+}
+
+.enemy_wrapper {
+    position: absolute;
+    transition: left 10s;
+    left: 10px;
+    bottom: 0px;
+}
+
+.enemy_wrapper > img {
+    width: 200px;
+    height: 220px;
+}
+
+.enemy_bullet {
+    transition: left 1s;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    z-index: -1;
+}
+
+.enemy_bullet img {
+    width: 20px;
+    height: 30px;
+}
+
+.right {
+    right: 1666px;
+}
